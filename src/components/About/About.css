@@ -1,0 +1,101 @@
+.about-section {
+  padding: 8rem 0;
+  max-width: 1582px;
+  width: 100%;
+  margin: auto;
+}
+
+/* About Sectioon */
+
+.about-main {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--bg-segguro-color);
+}
+
+.main-txt h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--secundary-segguro-color);
+  margin-bottom: 5rem;
+  position: relative;
+}
+.main-txt h2::before {
+  content: "";
+  border-bottom: 10px solid var(--primary-segguro-color);
+  position: absolute;
+  width: 90px;
+  top: 100%;
+
+}
+
+.main-txt p {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--gray-segguro-color);
+  max-width: 400px;
+}
+
+.main-img,
+.main-img img {
+  border-radius: 20px 0 20px 0;
+  position: relative;
+  z-index: 150;
+}
+.main-img {
+  position: relative;
+}
+.main-img::after {
+  content: "";
+  width: 100%;
+  border-radius: 20px 0 20px 0;
+  height: 100%;
+  position: absolute;
+  background-color: var(--secundary-segguro-color);
+  left: 0;
+  transform: translateX(1.5rem) translateY(1.5rem);
+  z-index: 100;
+}
+/* ------------------ */
+
+/* Lego Section */
+.section-lego h2, 
+.section-lego p {
+  text-align: center;
+}
+.section-lego h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary-segguro-color);
+  /* margin: 0 auto; */
+  margin-bottom: 2rem;
+}
+.section-lego p {
+  font-size: 1.125rem;
+  font-weight: 600;
+  width: 900px;
+  margin: auto;
+  line-height: 2.2rem;
+  color: var(--gray-segguro-color);
+}
+.section-lego {
+  position: relative;
+}
+.grid-lego {
+  display: grid;
+  position: absolute;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  /* column-gap: 450%; */
+  row-gap: 6rem;
+  padding: 0 4rem;
+  /* left: 30%; */
+  /* transform: translateX(-50%); */
+  top: 50%;
+  transform: translateY(-33%);
+}
+
+
+.section-lego-info {
+  border: 1px solid var(--primary-segguro-color);
+}

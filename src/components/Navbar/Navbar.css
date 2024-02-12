@@ -1,0 +1,30 @@
+.navbar {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6rem;
+  height: 72px;
+  margin-top: .3rem;
+  max-width: 1582px;
+  
+}
+.navbar-logo {
+  margin-left: 50px;
+}
+.navbar-links {
+  list-style: none;
+  display: flex;
+  font-weight: 600;
+  gap: 6rem;
+  margin-right: 50px;
+  color: var(--secundary-segguro-color);
+}
+
+.navbar-link {
+  cursor: pointer;
+}
+
+.navbar-link:hover {
+  color: var(--primary-segguro-color);
+}
