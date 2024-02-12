@@ -36,19 +36,19 @@ const Carrusel = () => {
       >
         <SwiperSlide>
           <div className='carrusel-slide'>
-            <div className='slide-img'><img src="public/carrusel/carrusel2.png" alt="" /></div>
+            <div className='slide-img'><img src="/carrusel/carrusel2.png" alt="" /></div>
             <p className='slide-p'>CONSULTORES ASOCIADOS EN LEAN MINING, CULTURA DE SEGURIDAD & ESG</p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className='carrusel-slide'>
-            <div className='slide-img'><img src="public/carrusel/carrusel1.png" alt="" /></div>
+            <div className='slide-img'><img src="/carrusel/carrusel1.png" alt="" /></div>
             <p className='slide-p'>CONSULTORES ASOCIADOS EN LEAN MINING, CULTURA DE SEGURIDAD & ESG</p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className='carrusel-slide'>
-            <div className='slide-img'><img src="public/carrusel/carrusel3.png" alt="" /></div>
+            <div className='slide-img'><img src="/carrusel/carrusel3.png" alt="" /></div>
             <p className='slide-p'>CONSULTORES ASOCIADOS EN LEAN MINING, CULTURA DE SEGURIDAD & ESG</p>
           </div>
         </SwiperSlide>
