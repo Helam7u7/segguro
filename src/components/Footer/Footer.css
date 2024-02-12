@@ -1,0 +1,28 @@
+.footer {
+  background-color: #101B22;
+}
+
+.footer-container {
+  max-width: 1582px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 4rem 2rem;
+  align-items: center;
+}
+
+.footer-container .grid-contacto {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, max(250px)) ;
+  row-gap: 4rem;
+  column-gap: 2rem;
+  padding: 1rem;
+}
+
+.grid-contacto .contacto-item {
+  display: flex;
+  color: var(--white-segguro-color);
+  gap: 1rem;
+  align-items: center;
+}

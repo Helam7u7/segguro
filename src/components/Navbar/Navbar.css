@@ -1,12 +1,17 @@
 .navbar {
+  position: sticky;
+  top: 0; 
+  z-index: 200; 
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 6rem;
+  padding: 0 0 0 6rem;
   height: 72px;
   margin-top: .3rem;
   max-width: 1582px;
+  background-color: var(--white-segguro-color);
+  gap: 4rem;
   
 }
 .navbar-logo {
@@ -16,13 +21,16 @@
   list-style: none;
   display: flex;
   font-weight: 600;
-  gap: 6rem;
-  margin-right: 50px;
+  justify-content: space-evenly;
+  /* gap: 6rem; */
+  margin-right: 4rem;
   color: var(--secundary-segguro-color);
+  width: 700px;
 }
 
 .navbar-link {
   cursor: pointer;
+  transition: color 0.3s;
 }
 
 .navbar-link:hover {
