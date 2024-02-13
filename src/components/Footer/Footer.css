@@ -9,12 +9,13 @@
   justify-content: space-around;
   padding: 4rem 2rem;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .footer-container .grid-contacto {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(2, max(250px)) ;
+  grid-template-columns: repeat(2, 250px) ;
   row-gap: 4rem;
   column-gap: 2rem;
   padding: 1rem;
@@ -25,4 +26,20 @@
   color: var(--white-segguro-color);
   gap: 1rem;
   align-items: center;
+}
+.grid-contacto .contacto-item h2 {
+  margin-bottom: 1rem;
+}
+
+.footer-container .contacto-item:nth-child(4) {
+  border-top: 3px solid var(--white-segguro-color);
+}
+.contacto-item .contacto-item-img {
+  transition: transform .2s;
+}
+.contacto-item:nth-child(4) .contacto-item-img:hover {
+  transform: scale(1.2);
+}
+.contacto-item .contacto-item-txt {
+  align-self: flex-start;
 }

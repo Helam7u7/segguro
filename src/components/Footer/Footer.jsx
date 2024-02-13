@@ -25,7 +25,7 @@ const Footer = () => {
             <div className='contacto-item-img'><img src="/svg/map.svg" alt="" /></div>
             <div className='contacto-item-txt'>
               <h2>Ubicación</h2>
-              <p>Pje Almería 159 Urb Portada del Sol La Molina, Lima, Perú</p>
+              <p>Pje Almería 159 Urb Portada del Sol<br/> <strong>La Molina, Lima, Perú</strong></p>
             </div>
           </div>
           <div className='contacto-item'>

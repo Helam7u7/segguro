@@ -30,6 +30,8 @@
 
 .navbar-link {
   cursor: pointer;
+  text-decoration: none;
+  color: var(--secundary-segguro-color);
   transition: color 0.3s;
 }
 
