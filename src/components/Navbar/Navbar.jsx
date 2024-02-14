@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="navbar-logo"><Link to='/'><img src="/svg/logo.png" alt="" /></Link></div>
+      <div className="navbar-logo"><Link to='/'><img src="/svg/logoSegguroC.svg" alt="" /></Link></div>
       <div 
         className='menu'
         onClick={() => {setMenuOpen(!menuOpen)}}
