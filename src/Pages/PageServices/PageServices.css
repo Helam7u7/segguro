@@ -23,15 +23,16 @@
   grid-template-columns: repeat(auto-fit, minmax(415px,1fr));
   gap: 4rem;
 }
-.services-grid .services-grid-item {
+.services-item-head {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.services-grid .services-grid-item {
   box-shadow: 2px 4px 6px 3px rgba(0,0,0,0.2);
-  /* box-shadow: 2px 4px 7px 7px rgba(0,0,0,0.19); */
   padding: 2rem;
   color: var(--gray-segguro-color);
-  align-items: center;
-  gap: 2rem;
 }
 .services-grid-item h2 {
   font-size: 1.5rem;

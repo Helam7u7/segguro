@@ -13,9 +13,11 @@
 }
 
 .about-main {
+  padding: 0 2rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   gap: 2rem;
 }
 
@@ -89,6 +91,7 @@
   position: relative;
   align-items: center;
   gap: 2rem;
+  flex-wrap: wrap;
 }
 .lego-info-img .img img {
   max-width: 100%;
@@ -100,6 +103,7 @@
   display: grid;
   grid-template-columns: repeat(2, 230px);
   grid-template-rows: repeat(2, 184px);
+  /* grid-template-columns: repeat(auto-fit, minmax(230px)); */
   gap: 3rem;
 }
 .lego-info-card{
@@ -148,6 +152,8 @@
   font-weight: 600;
   text-align: center;
   padding: 6rem 12rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.12rem;
 }
 /* -------------- */
 
@@ -156,16 +162,18 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
 }
 .section-solus .solus-img {
   display: flex;
-  width: 250px;
+  max-width: 250px;
   height: 300px;
   align-items: end;
   padding: 0 1rem 1.3rem 1rem;
   transition: transform .3s, border-bottom .3s;
   border-bottom: 4px solid var(--primary-segguro-color);
   box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.33);
+  margin: 1rem;
 }
 .section-solus .solus-img:hover {
   transform: scale(1.1);
@@ -187,4 +195,21 @@
 }
 .section-solus .solus4 {
   background-image: url('/lego/solu4.png');
+}
+
+@media (max-width: 940px) {
+  .section-banner .banner-p {
+    font-size: 1rem;
+    padding: 2rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.12rem;
+  }
+  .main-txt h2 {
+    font-size: 1.5rem;
+    /* font-weight: 700;
+    color: var(--secundary-segguro-color);
+    margin-bottom: 5rem;
+    position: relative;
+    max-width: 100%; */
+  }
 }

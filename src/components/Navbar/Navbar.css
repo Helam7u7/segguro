@@ -1,3 +1,4 @@
+
 .navbar {
   position: sticky;
   top: 0; 
@@ -37,4 +38,28 @@
 
 .navbar-link:hover {
   color: var(--primary-segguro-color);
+  border-bottom: 2px solid var(--primary-segguro-color);
+}
+.active  {
+  color: var(--primary-segguro-color);
+  border-bottom: 2px solid var(--primary-segguro-color);
+}
+
+.navbar .menu {
+  display: none;
+  position: absolute;
+  right: 0;
+  margin-right: 3rem;
+}
+@media (max-width: 767px) {
+  .navbar .menu {
+    display: block;
+  }
+  .navbar {
+    flex-wrap: wrap;
+  }
+  .navbar .navbar-links {
+    flex-direction: column;
+    background-color: var(--white-segguro-color);
+  }
 }

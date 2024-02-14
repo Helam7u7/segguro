@@ -11,8 +11,10 @@ const PageServices = () => {
     <section className='section-services section'>
       <div className='services-grid'>
         <div className='services-grid-item'>
-          <div className='services-item-img'><img src="/servicios/license.png" alt="" /></div>
-          <h2>Consultorías en Seguridad y Salud Ocupacional</h2>
+          <div className='services-item-head'>
+            <div className='services-item-img'><img src="/servicios/license.png" alt="" /></div>
+            <h2>Consultorías en Seguridad y Salud Ocupacional</h2>
+          </div>
           <ul className='services-item-ul'>
             <li>Elaboración de Planes Estratégicos de Seguridad y Salud Ocupacional, basado en la Visión empresarial.</li>
             <li>Elaboración, evaluación y entrenamiento de estándares y procedimientos operativos.</li>
@@ -21,8 +23,10 @@ const PageServices = () => {
           </ul>
         </div>
         <div className='services-grid-item'>
-          <div className='services-item-img'><img src="/servicios/stadistics.png" alt="" /></div>
-          <h2>Implementación del Programa Lean Mining</h2>
+          <div className='services-item-head'>
+            <div className='services-item-img'><img src="/servicios/stadistics.png" alt="" /></div>
+            <h2>Implementación del Programa Lean Mining</h2>
+          </div>
           <ul className='services-item-ul'>
             <li>Eficiencia y productividad en los procesos mineros primarios.</li>
             <li>Planificación y estrategia para el riesgo operacional.</li>

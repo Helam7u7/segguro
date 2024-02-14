@@ -66,3 +66,17 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+
+@media (max-width: 940px) {
+  .slide-p {
+    font-size: 2rem;
+    padding: 2rem 4rem;
+  }
+}
+@media (max-width: 630px) {
+  .slide-p {
+    font-size: 1rem;
+    padding: 2rem 3rem;
+  }
+}

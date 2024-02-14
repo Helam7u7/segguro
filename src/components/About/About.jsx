@@ -3,25 +3,6 @@ import './About.css'
 
 const About = () => {
 
-  const imagenes = [
-    {
-      img:'/lego/solu1.png',
-      txt:''
-    },
-    {
-      img:'/lego/solu2.png',
-      txt:''
-    },
-    {
-      img:'/lego/solu3.png',
-      txt:''
-    },
-    {
-      img:'/lego/solu4.png',
-      txt:''
-    }
-  ]
-
   return (
     <article className="about">
       <section className="about-container">
@@ -47,7 +28,6 @@ const About = () => {
         <div className='grid-lego'>
           <div className='lego-item'><img src="/lego/red.png" alt="" /></div>
           <div className='lego-item'><img src="/lego/blue.png" alt="" /></div>
-          {/* <div className='lego-img'><img src="/lego/legoBg.png" alt="" /></div> */}
         </div>
       </section>
       <section className='section-lego-info'>
