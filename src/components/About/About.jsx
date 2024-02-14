@@ -29,6 +29,9 @@ const About = () => {
           <div className='lego-item'><img src="/lego/red.png" alt="" /></div>
           <div className='lego-item'><img src="/lego/blue.png" alt="" /></div>
         </div>
+        <div className='row-lego'>
+          <img src="/lego/rowLego.png" alt="" />
+        </div>
       </section>
       <section className='section-lego-info'>
         <div className='lego-info-img about-section'>

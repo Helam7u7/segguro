@@ -154,3 +154,54 @@
   padding-top: 1rem;
   border-top: 1px solid var(--primary-segguro-color);
 }
+
+@media (max-width: 767px) {
+  .about-main-txt {
+    padding: 6rem 3rem 2rem 3rem;
+  }
+  .about-main-txt h2 {
+    font-size: 3rem;
+  }
+  .about-main-txt p{
+    font-size: 1.125rem;
+    letter-spacing: .1rem;
+    text-align: left;
+  }
+  .section-vm {
+    gap: 3rem;
+  }
+  .vm-mision {
+    padding-top: 2rem;
+    border-top: 1px solid var(--primary-segguro-color);
+  }
+  .vm-mision::after {
+    width: 0;
+  }
+  .vm {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .vm .vm-txt{
+    text-align: center;
+  }
+  .vm p {
+    line-height: 1.5rem;
+  }
+  .valores-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px ,600px));
+  }
+  .valores-grid-item:first-child h3{
+    text-align: center;
+  }
+  .equipo-grid-item {
+    flex-wrap: wrap;
+  }
+  .equipo-grid-img {
+    width: max-content;
+    margin-bottom: 1rem;
+  }
+  .equipo-grid-img img{
+    max-width: 150px;
+    max-height: 150px;
+  }
+}

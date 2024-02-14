@@ -13,7 +13,7 @@
 }
 
 .about-main {
-  padding: 0 2rem;
+  padding: 6rem 2rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -81,6 +81,9 @@
 }
 .lego-img img {
   max-width: 100%;
+}
+.row-lego {
+  display: none;
 }
 /* ------------------ */
 
@@ -204,12 +207,31 @@
     line-height: 1.8rem;
     letter-spacing: 0.12rem;
   }
+  
   .main-txt h2 {
-    font-size: 1.5rem;
-    /* font-weight: 700;
-    color: var(--secundary-segguro-color);
-    margin-bottom: 5rem;
-    position: relative;
-    max-width: 100%; */
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+  
+  .main-txt p {
+    max-width: 100%;
+    text-align: center;
+  }
+  .section-lego {
+    flex-wrap: wrap;
+    padding: 0 1rem;
+  }
+  .section-lego .grid-lego {
+    display: none;
+  }
+  .row-lego {
+    display: block;
+  }
+  .section-lego .lego-txt p {
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .lego-info-img .img {
+    padding: 0 2rem;
   }
 }

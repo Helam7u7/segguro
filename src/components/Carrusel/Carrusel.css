@@ -70,13 +70,7 @@
 
 @media (max-width: 940px) {
   .slide-p {
-    font-size: 2rem;
+    font-size: 4vw;
     padding: 2rem 4rem;
-  }
-}
-@media (max-width: 630px) {
-  .slide-p {
-    font-size: 1rem;
-    padding: 2rem 3rem;
   }
 }
