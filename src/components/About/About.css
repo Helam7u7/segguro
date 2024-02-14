@@ -236,3 +236,17 @@
     padding: 0 2rem;
   }
 }
+
+@media (max-width: 650px) {
+  .lego-info-cards {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(1, 230px);
+    gap: 3rem;
+  }
+  
+  .section-lego {
+    padding-left:2rem;
+    padding-right:2rem;
+  }
+}

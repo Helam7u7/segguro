@@ -62,4 +62,7 @@
     width: 200px;
     text-align: center;
   }
+  .footer-logo img {
+    max-width: 100%;
+  }
 }
