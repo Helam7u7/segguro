@@ -1,7 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
-import About from './components/About/About'
-import Carrusel from './components/Carrusel/Carrusel'
 import Layout from './components/Layout/Layout'
 import Home from './Pages/Home/Home'
 import PageAbout from './Pages/PageAbout/PageAbout'

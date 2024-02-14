@@ -1,5 +1,6 @@
 .page-about-main{
   background-image: url('/about/aboutBanner.png');
+  background-size: cover;
 }
 .section {
   max-width: 1582px;
