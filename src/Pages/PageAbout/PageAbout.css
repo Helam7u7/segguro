@@ -119,6 +119,14 @@
   font-size: 3rem;
   color: var(--gray-segguro-color);
   text-align: center;
+  position: relative;
+}
+.about-equipo .equipo-title h2::before {
+  content: "";
+  border-bottom: 10px solid var(--primary-segguro-color);
+  position: absolute;
+  width: 90px;
+  top: 100%;
 }
 .about-equipo .equipo-grid {
   display: grid;
@@ -203,5 +211,11 @@
   .equipo-grid-img img{
     max-width: 150px;
     max-height: 150px;
+  }
+  .about-equipo .equipo-title h2::before {
+    width: 200px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
