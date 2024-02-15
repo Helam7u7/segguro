@@ -29,9 +29,9 @@ const Footer = () => {
             </div>
           </div>
           <div className='contacto-item'>
-            <div className='contacto-item-img'><img src="/svg/facebookIcon.svg" alt="" /></div>
+            <div className='contacto-item-img'><a href="https://www.facebook.com/segguroconsultingsac" target='_blank'><img src="/svg/facebookIcon.svg" alt="facebook" /></a></div>
             <div className='contacto-item-img'><img src="/svg/instagramIcon.svg" alt="" /></div>
-            <div className='contacto-item-img'><img src="/svg/linkedinIcon.svg" alt="" /></div>
+            <div className='contacto-item-img'><a href="https://www.linkedin.com/in/segguro-consulting-36067a135/" target="_blank" rel="noopener noreferrer"><img src="/svg/linkedinIcon.svg" alt="" /></a></div>
             <div className='contacto-item-img'><img src="/svg/twitterIcon.svg" alt="" /></div>
           </div>
         </div>
