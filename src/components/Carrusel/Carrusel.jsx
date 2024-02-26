@@ -12,9 +12,9 @@ const Carrusel = () => {
       <Swiper
         modules={[Pagination, Navigation, Autoplay]}
         slidesPerView={1}
-        // autoplay={{
-        //   delay: 3500,
-        // }}
+        autoplay={{
+          delay: 3500,
+        }}
         loop={true}
         pagination={{
           clickable: true,
