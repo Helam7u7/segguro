@@ -49,41 +49,47 @@
   width: 50px;
   height: 50px;
 }
+.services-item-ul.abierto {
+  display: block;
+}
+.services-item-ul.cerrado {
+  display: none;
+}
 
 .services-grid-item:nth-child(1) .img-service {
   background-image: url('/servicios/identityblue.png');
 }
-.services-grid-item:nth-child(1):hover .img-service {
+.services-grid-item.grid-drop:nth-child(1) .img-service {
   background-image: url('/servicios/identitywhite.png');
 }
 .services-grid-item:nth-child(2) .img-service {
   background-image: url('/servicios/barYellow.png');
 }
-.services-grid-item:nth-child(2):hover .img-service {
+.services-grid-item.grid-drop:nth-child(2) .img-service {
   background-image: url('/servicios/barWhite.png');
 }
 .services-grid-item:nth-child(3) .img-service {
   background-image: url('/servicios/museumBlue.png');
 }
-.services-grid-item:nth-child(3):hover .img-service {
+.services-grid-item.grid-drop:nth-child(3) .img-service {
   background-image: url('/servicios/museumWhite.png');
 }
 .services-grid-item:nth-child(4) .img-service {
   background-image: url('/servicios/licenseYellow.png');
 }
-.services-grid-item:nth-child(4):hover .img-service {
+.services-grid-item.grid-drop:nth-child(4) .img-service {
   background-image: url('/servicios/licenseWhite.png');
 }
 .services-grid-item:nth-child(5) .img-service {
   background-image: url('/servicios/groupBlue.png');
 }
-.services-grid-item:nth-child(5):hover .img-service {
+.services-grid-item.grid-drop:nth-child(5) .img-service {
   background-image: url('/servicios/groupWhite.png');
 }
 .services-grid-item:nth-child(6) .img-service {
   background-image: url('/servicios/fieldYellow.png');
 }
-.services-grid-item:nth-child(6):hover .img-service {
+.services-grid-item.grid-drop:nth-child(6) .img-service {
   background-image: url('/servicios/fieldWhite.png');
 }
 
@@ -91,35 +97,35 @@
   border-bottom: .4rem solid transparent;
   transition: .4s;
 }
-.services-grid-item:hover {
+.services-grid-item.grid-drop {
   background-size: cover;
   color: var(--white-segguro-color);
 }
-.services-grid-item.item-blue:hover {
+.services-grid-item.item-blue.grid-drop {
   border-bottom: .4rem solid var(--secundary-segguro-color);
 }
-.services-grid-item.item-yellow:hover {
+.services-grid-item.item-yellow.grid-drop {
   border-bottom: .4rem solid var(--primary-segguro-color);
 }
-.services-grid-item:hover .services-item-img {
+.services-grid-item.grid-drop .services-item-img {
   background-color: rgba(255, 255, 255, 0.19);
 }
-.services-grid-item:nth-child(1):hover {
+.services-grid-item.grid-drop:nth-child(1) {
   background-image: url('/servicios/bgServices/security.jpg');
 } 
-.services-grid-item:nth-child(2):hover {
+.services-grid-item.grid-drop:nth-child(2) {
   background-image: url('/servicios/bgServices/learning.jpg');
 } 
-.services-grid-item:nth-child(3):hover {
+.services-grid-item.grid-drop:nth-child(3) {
   background-image: url('/servicios/bgServices/cultura.jpg');
 } 
-.services-grid-item:nth-child(4):hover {
+.services-grid-item.grid-drop:nth-child(4) {
   background-image: url('/servicios/bgServices/certificado.jpg');
 } 
-.services-grid-item:nth-child(5):hover {
+.services-grid-item.grid-drop:nth-child(5){
   background-image: url('/servicios/bgServices/factores.jpg');
 } 
-.services-grid-item:nth-child(6):hover {
+.services-grid-item.grid-drop:nth-child(6) {
   background-image: url('/servicios/bgServices/esg.jpg');
 } 
 .services-grid-item h2 {
@@ -139,6 +145,20 @@
 }
 .item-yellow .services-item-img{
   background-color: #fef0cf;
+}
+.btn-drop {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.btn-down {
+  background-color: var(--gray-segguro-color);
+}
+.btn-up {
+  background-color: var(--primary-segguro-color);
 }
 
 @media (max-width: 600px) {

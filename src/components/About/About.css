@@ -163,16 +163,15 @@
 /* section-solus */
 .section-solus {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  gap: 2rem;
 }
 .section-solus .solus-img {
   display: flex;
-  max-width: 250px;
-  height: 300px;
-  align-items: end;
-  padding: 0 1rem 1.3rem 1rem;
+  max-width: 700px;
+  align-items: center;
   transition: transform .3s, border-bottom .3s;
   border-bottom: 4px solid var(--primary-segguro-color);
   box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.33);
@@ -182,23 +181,27 @@
   transform: scale(1.1);
   border-bottom: 4px solid var(--secundary-segguro-color);
 }
-
+.img-sol {
+  display: flex;
+  width: max-content;
+  height: max-content;
+}
+.img-sol img{
+  max-width: 200px;
+}
 .section-solus .solus-p {
-  color: var(--white-segguro-color);
+  color: var(--gray-segguro-color);
   font-weight: 600;
+  margin: 0 1rem;
 }
-.section-solus .solus1 {
-  background-image: url('/lego/solu1.png');
-}
-.section-solus .solus2 {
+/* .section-solus .solus2 {
   background-image: url('/lego/solu2.png');
+  background-size: cover;
 }
 .section-solus .solus3 {
   background-image: url('/lego/solu3.png');
-}
-.section-solus .solus4 {
-  background-image: url('/lego/solu4.png');
-}
+  background-size: cover;
+} */
 
 @media (max-width: 940px) {
   .section-banner .banner-p {
@@ -235,6 +238,10 @@
   .lego-info-img .img {
     padding: 0 2rem;
   }
+  .section-solus {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 @media (max-width: 650px) {
@@ -248,5 +255,22 @@
   .section-lego {
     padding-left:2rem;
     padding-right:2rem;
+  }
+  /* .solus-img {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  } */
+}
+
+@media (max-width: 500px) {
+  .solus-img {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    width: 200px;
+  }
+  .section-solus .solus-p {
+    margin-bottom: 1rem;
   }
 }
