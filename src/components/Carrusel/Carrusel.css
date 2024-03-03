@@ -51,6 +51,16 @@
   font-size: 3rem;
   text-align: center;
 }
+.slide-p.p-main span a{
+  font-size: 3rem;
+  color: var(--white-segguro-color);
+  transition: .5s;
+  text-decoration-color: var(--primary-segguro-color);
+}
+.slide-p.p-main span a:hover{
+  color: var(--primary-segguro-color);
+  cursor: pointer;
+}
 
 .swiper {
   width: 100%;

@@ -5,6 +5,7 @@ import "swiper/css/navigation";
 
 import "./Carrusel.css";
 import { Pagination, Navigation, Autoplay } from "swiper/modules";
+import { Link } from "react-router-dom";
 
 const Carrusel = () => {
   return (
@@ -25,11 +26,22 @@ const Carrusel = () => {
         <SwiperSlide>
           <div className="carrusel-slide">
             <div className="slide-img">
-              <img src="/carrusel/carrusel2.png" alt="" />
+              <img src="/carrusel/carrusel2.jpg" alt="" />
             </div>
             <div className="slide-txt">
               <p className="slide-p p-main">
-                CONSULTORES ASOCIADOS EN LEAN MINING, CULTURA DE SEGURIDAD & ESG
+                CONSULTORES ASOCIADOS EN{" "}
+                <span>
+                  <Link to="/servicios">LEAN MINING</Link>
+                </span>
+                ,{" "}
+                <span>
+                  <Link to="/servicios">CULTURA DE SEGURIDAD</Link>
+                </span>{" "}
+                &{" "}
+                <span>
+                  <Link to="/servicios">ESG</Link>
+                </span>
               </p>
             </div>
           </div>
@@ -37,7 +49,7 @@ const Carrusel = () => {
         <SwiperSlide>
           <div className="carrusel-slide">
             <div className="slide-img">
-              <img src="/carrusel/carrusel1.png" alt="" />
+              <img src="/carrusel/carrusel1.jpg" alt="" />
             </div>
             <div className="slide-txt">
               <h2 className="slide-title">HABILITAR EL CAMBIO</h2>
@@ -52,7 +64,7 @@ const Carrusel = () => {
         <SwiperSlide>
           <div className="carrusel-slide">
             <div className="slide-img">
-              <img src="/carrusel/carrusel3.png" alt="" />
+              <img src="/carrusel/carrusel3.jpg" alt="" />
             </div>
             <div className="slide-txt">
               <h2 className="slide-title">COMPORTAMINETO Y COMPROMISO</h2>
@@ -67,7 +79,7 @@ const Carrusel = () => {
         <SwiperSlide>
           <div className="carrusel-slide">
             <div className="slide-img">
-              <img src="/carrusel/carrusel3.png" alt="" />
+              <img src="public/carrusel/carrusel4.jpg" alt="" />
             </div>
             <div className="slide-txt">
               <h2 className="slide-title">TRANSFORMACIÓN DISRUPTIVA</h2>
@@ -83,7 +95,7 @@ const Carrusel = () => {
         <SwiperSlide>
           <div className="carrusel-slide">
             <div className="slide-img">
-              <img src="/carrusel/carrusel3.png" alt="" />
+              <img src="/carrusel/carrusel5.jpg" alt="" />
             </div>
             <div className="slide-txt">
               <h2 className="slide-title">DISEÑO DE PROCESOS SEGUROS</h2>
