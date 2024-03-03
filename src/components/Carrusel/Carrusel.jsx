@@ -79,7 +79,7 @@ const Carrusel = () => {
         <SwiperSlide>
           <div className="carrusel-slide">
             <div className="slide-img">
-              <img src="public/carrusel/carrusel4.jpg" alt="" />
+              <img src="/carrusel/carrusel4.jpg" alt="" />
             </div>
             <div className="slide-txt">
               <h2 className="slide-title">TRANSFORMACIÓN DISRUPTIVA</h2>
