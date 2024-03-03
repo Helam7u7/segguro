@@ -5,11 +5,13 @@ import Home from "./Pages/Home/Home";
 import PageAbout from "./Pages/PageAbout/PageAbout";
 import PageServices from "./Pages/PageServices/PageServices";
 import PageCourses from "./Pages/Courses/PageCourses";
+import ScrollToTop from "./components/ScrollTop/ScrollTop";
 
 function App() {
   return (
     <>
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />

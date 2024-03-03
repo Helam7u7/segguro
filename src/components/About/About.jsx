@@ -18,6 +18,7 @@ const About = () => {
           </div>
         </div>
       </section>
+
       <section className="section-lego about-section">
         <div className="grid-lego">
           <div className="lego-item">
@@ -29,6 +30,7 @@ const About = () => {
         </div>
         <div className="lego-txt">
           <h2>LEGO® SERIOUS PLAY®</h2>
+          <h2>¿Qué es?</h2>
           <p>
             Es un método sistemático que usa pieza de Lego® para resolver
             problemas, explorar ideas y lograr objetivos. Es un proceso
@@ -50,10 +52,23 @@ const About = () => {
           <img src="/lego/rowLego.png" alt="" />
         </div>
       </section>
+      <section className="section-banner">
+        <div className="banner-img">
+          <div className="banner-txt">
+            <p className="banner-p">
+              Las soluciones en línea, ayudamos a las organizaciones a controlar
+              el riesgo, proteger los activos y administrar de manera efectiva a
+              las personas a través de una combinación del pensamiento
+              estratégico, intuitivo, entrenamiento interactivo y consultoría en
+              el sitio.
+            </p>
+          </div>
+        </div>
+      </section>
       <section className="section-lego-info">
         <div className="lego-info-img about-section">
           <div className="img">
-            <img src="/lego/workLego.png" alt="" />
+            <img src="/lego/workLego2.png" alt="" />
           </div>
           <div className="lego-info-cards">
             <div className="lego-info-card">
@@ -107,19 +122,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="section-banner">
-        <div className="banner-img">
-          <div className="banner-txt">
-            <p className="banner-p">
-              Las soluciones en línea, ayudamos a las organizaciones a controlar
-              el riesgo, proteger los activos y administrar de manera efectiva a
-              las personas a través de una combinación del pensamiento
-              estratégico, intuitivo, entrenamiento interactivo y consultoría en
-              el sitio.
-            </p>
-          </div>
-        </div>
-      </section>
+
       <section className="section-solus about-section">
         <div className="solus-img solus1">
           <div className="img-sol">
