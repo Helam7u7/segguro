@@ -43,7 +43,7 @@ const Footer = () => {
           <div className="contacto-item">
             <div className="contacto-item-img">
               <a
-                href="https://www.facebook.com/segguroconsultingsac"
+                href="https://www.facebook.com/segguro.consulting"
                 target="_blank"
               >
                 <img src="/svg/facebookIcon.svg" alt="facebook" />

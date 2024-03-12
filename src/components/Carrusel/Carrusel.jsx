@@ -67,7 +67,7 @@ const Carrusel = () => {
               <img src="/carrusel/carrusel3.jpg" alt="" />
             </div>
             <div className="slide-txt">
-              <h2 className="slide-title">COMPORTAMINETO Y COMPROMISO</h2>
+              <h2 className="slide-title">COMPORTAMIENTO Y COMPROMISO</h2>
               <p className="slide-p">
                 Permitimos que las organizaciones entreguen resultados al
                 comprender y maximizar el potencial de su gente y cultura para

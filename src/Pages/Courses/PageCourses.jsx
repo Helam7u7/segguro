@@ -65,7 +65,12 @@ const PageCourses = () => {
               <h3>Control de Caídas de Rocas</h3>
             </div>
             <span className="curso-btn">
-              <a href="">COMENZAR</a>
+              <a
+                href="https://wa.me/+51967710904/?text=Información sobre el curso Control de Caídas de Rocas"
+                target="_blank"
+              >
+                CONSULTAR
+              </a>
             </span>
           </div>
           <div className="card-curso">
@@ -77,7 +82,12 @@ const PageCourses = () => {
               <h3>Gestión de Relaves y Ductos</h3>
             </div>
             <span className="curso-btn">
-              <a href="">COMENZAR</a>
+              <a
+                href="https://wa.me/+51967710904/?text=Información sobre el curso Gestión de Relaves y Ductos"
+                target="_blank"
+              >
+                CONSULTAR
+              </a>
             </span>
           </div>
         </div>
