@@ -18,7 +18,7 @@ const Carrusel = () => {
   }, []);
 
   return (
-    <main className="carrusel" data-aos="fade-up">
+    <main className="carrusel" data-aos="fade-down">
       <Swiper
         modules={[Pagination, Navigation, Autoplay]}
         slidesPerView={1}
