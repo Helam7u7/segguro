@@ -1,6 +1,14 @@
+import { useEffect } from "react";
+
 import "./About.css";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const About = () => {
+  useEffect(() => {
+    AOS.init({ duration: "1000" });
+  }, []);
   return (
     <article className="about">
       <section className="about-container">
@@ -13,13 +21,17 @@ const About = () => {
               energía y construcción.
             </p>
           </div>
-          <div className="main-img">
+          <div className="main-img" data-aos="fade-left">
             <img src="/lego/about.png" alt="" />
           </div>
         </div>
       </section>
 
-      <section className="section-lego about-section">
+      <section
+        className="section-lego about-section"
+        data-aos="zoom-in"
+        data-aos-delay="200"
+      >
         <div className="grid-lego">
           <div className="lego-item">
             <img src="/lego/yellow.png" alt="" />
@@ -67,10 +79,10 @@ const About = () => {
       </section>
       <section className="section-lego-info">
         <div className="lego-info-img about-section">
-          <div className="img">
+          <div className="img" data-aos="fade-right">
             <img src="/lego/workLego2.png" alt="" />
           </div>
-          <div className="lego-info-cards">
+          <div className="lego-info-cards" data-aos="fade-left">
             <div className="lego-info-card">
               <div className="lego-card-img">
                 <img src="/lego/brain.svg" alt="" />
@@ -124,7 +136,7 @@ const About = () => {
       </section>
 
       <section className="section-solus about-section">
-        <div className="solus-img solus1">
+        <div className="solus-img solus1" data-aos="flip-left">
           <div className="img-sol">
             <img src="/lego/solu2.png" alt="" />
           </div>
@@ -134,7 +146,7 @@ const About = () => {
             la organización
           </p>
         </div>
-        <div className="solus-img solus2">
+        <div className="solus-img solus2" data-aos="flip-right">
           <div className="img-sol">
             <img src="/lego/solu3.png" alt="" />
           </div>

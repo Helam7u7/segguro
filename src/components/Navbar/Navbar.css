@@ -1,8 +1,13 @@
-
-.navbar {
+.nav-container {
+  width: 100%;
+  display: flex;
+  /* position: relative; */
+  background-color: var(--white-segguro-color);
   position: sticky;
   top: 0; 
   z-index: 400; 
+}
+.navbar {
   margin: auto;
   display: flex;
   justify-content: space-between;

@@ -1,19 +1,30 @@
-import React from "react";
+import { useEffect } from "react";
+
 import "./PageCourses.css";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const PageCourses = () => {
+  useEffect(() => {
+    AOS.init({ duration: "1000" });
+  }, []);
   return (
     <>
-      <main className="page-courses-main">
-        <div className="about-main-txt section">
+      <main className="page-courses-main" data-aos="fade-down">
+        <div
+          className="about-main-txt section"
+          data-aos="fade-right"
+          data-aos-delay="300"
+        >
           <h2>Cursos</h2>
         </div>
       </main>
       <section className="main-courses section">
-        <div className="main-bg-img">
+        <div className="main-bg-img" data-aos="zoom-out">
           <img src="/cursos/mainCourse.png" alt="" />
         </div>
-        <div className="courses-metod">
+        <div className="courses-metod" data-aos="zoom-out">
           <h2>METODOLOGÍA DE APRENDIZAJE</h2>
           <p>
             El modelos educativo que proponemos está diseñado en base a la
@@ -26,7 +37,7 @@ const PageCourses = () => {
             sencillos, amigables y de aplicación inmediata en tu centro de
             trabajo.
           </p>
-          <div className="grid-metod">
+          <div className="grid-metod" data-aos="fade-left">
             <div className="grid-metod-item">
               <div className="metod-item-img">
                 <img src="/cursos/icons/lapiz.png" alt="" />
@@ -56,8 +67,8 @@ const PageCourses = () => {
       </section>
       <section className="section-cursos">
         <div className="container-cursos section">
-          <div className="card-curso">
-            <div className="curso-img">
+          <div className="card-curso" data-aos="zoom-in-right">
+            <div className="curso-img" data-aos="zoom-in">
               <img src="/cursos/controlCaidas.jpg" alt="" />
             </div>
             <div className="curso-card-txt">
@@ -73,8 +84,8 @@ const PageCourses = () => {
               </a>
             </span>
           </div>
-          <div className="card-curso">
-            <div className="curso-img">
+          <div className="card-curso" data-aos="zoom-in-left">
+            <div className="curso-img" data-aos="zoom-in">
               <img src="/cursos/gestionRelaves.jpg" alt="" />
             </div>
             <div className="curso-card-txt">

@@ -1,3 +1,5 @@
+import React, { useEffect } from "react";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -7,9 +9,16 @@ import "./Carrusel.css";
 import { Pagination, Navigation, Autoplay } from "swiper/modules";
 import { Link } from "react-router-dom";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Carrusel = () => {
+  useEffect(() => {
+    AOS.init({ duration: "1000" });
+  }, []);
+
   return (
-    <main className="carrusel">
+    <main className="carrusel" data-aos="fade-up">
       <Swiper
         modules={[Pagination, Navigation, Autoplay]}
         slidesPerView={1}

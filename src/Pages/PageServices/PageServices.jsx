@@ -1,7 +1,14 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+
 import "./PageServices.css";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const PageServices = () => {
+  useEffect(() => {
+    AOS.init({ duration: "1000" });
+  }, []);
   const [dropDown, setDropDown] = useState(true);
   const [dropDown2, setDropDown2] = useState(true);
   const [dropDown3, setDropDown3] = useState(true);
@@ -29,13 +36,22 @@ const PageServices = () => {
   };
   return (
     <>
-      <main className="main-services">
-        <div className="main-title section">
+      <main className="main-services" data-aos="fade-down">
+        <div
+          className="main-title section"
+          data-aos="fade-right"
+          data-aos-delay="300"
+        >
           <h2>SERVICIOS</h2>
         </div>
       </main>
       <section className="section-services section">
-        <div className="services-grid">
+        <div
+          className="services-grid"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-delay="1000"
+        >
           <div
             className={`services-grid-item item-blue ${
               dropDown3 ? "" : "grid-drop"
